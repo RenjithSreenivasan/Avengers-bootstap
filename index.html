@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+
+
+                <span class="logo-text ms-2">
+                    AVENGERS
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#movies">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#umovies">Upcomig Movies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/@marvel">Trailers</a></li>
+                            <li><a class="dropdown-item" href="https://www.marvel.com/movies">Marvel</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#footer">Contact us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#series">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#char">Characters</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div id="carousel-item" class="carousel-item active">
+                <img src="./Images/wp2613062-wallpaper-avengers.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Avengers_ Infinity War.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/wp4310765-tony-stark-endgame-wallpapers.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- CARD -->
+    <div class="text-center my-5">
+        <h1 class="display-3 fw-bold text-white text-uppercase">
+            Popular Movies
+        </h1>
+        <hr class="w-25 mx-auto border-danger border-3 opacity-100">
+    </div>
+    <div id="movies" class="my-5 d-flex flex-wrap justify-content-center gap-4">
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/Avengers (2018) Action_ Adventure_ Sci-Fi(1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">INFINITY WAR</h5>
+                <p class="card-text">The Avengers unite with the Guardians of the Galaxy to stop Thanos from collecting all six Infinity Stones</p>
+                <a href="https://youtu.be/6ZfuNTqbHE8?si=yjYAMVum3blhdoeI" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/Trends International Marvel Cinematic Universe - Avengers - Age of Ultron - One Sheet Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">AGE OF ULTRON</h5>
+                <p class="card-text">Tony Stark's peacekeeping program goes wrong when Ultron becomes self-aware </p>
+                <a href="https://youtu.be/tmeOjFno6Do?si=Zb0s--Wh8xvMBelH" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/Thor 3_ Ragnarok (2017).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">THOR:RAGNAROK</h5>
+                <p class="card-text">Thor must escape captivity, stop the powerful Hela, and prevent Ragnarok—the destruction of Asgard.</p>
+                <a href="https://youtu.be/ue80QwXMRHg?si=IInW7Z3wgeM0f66H" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/𝙲𝚒𝚟𝚒𝚕 𝚠𝚊𝚛.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">CIVIL WAR</h5>
+                <p class="card-text">Political pressure divides the Avengers, forcing Iron Man and Captain America into a conflict that changes the future of the team.</p>
+                <a href="https://youtu.be/dKrVegVI0Us?si=-EL8kh-_Kh9LfizA" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/Spiderman no WAY home poster 4 k.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">SPIDER MAN : NO WAY HOME</h5>
+                <p class="card-text">After his identity is revealed, Peter Parker seeks Doctor Strange's help, unleashing villains and heroes from across the multiverse.</p>
+                <a href="https://youtu.be/JfVOs4VSpmA?si=CmpHayO5jgS_6tWp" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/movies/Guardians of the Galaxy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">GARDIANS OF GALAXY</h5>
+                <p class="card-text">A group of unlikely heroes travels across the galaxy to protect a powerful artifact and save the universe from destruction.</p>
+                <a href="https://youtu.be/d96cjJhvlMA?si=sYLZDfP5tmdQf_Pw" class="btn btn-primary">Watch Trailer</a>
+            </div>
+        </div>
+    </div>
+    <!-- More Movies Button -->
+    <div class="text-center my-5">
+        <button class="btn btn-outline-danger px-4 py-2 fw-semibold" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#moreMovies" aria-controls="moreMovies">
+            More Marvel Movies
+        </button>
+    </div>
+    <!-- UPCOMING MOVIE -->
+    <div id="umovies" class="container my-5">
+
+        <h1 class="display-4 fw-bold text-center text-white text-uppercase mb-4">
+            Upcoming Movie
+        </h1>
+
+        <div class="card text-white border-0 overflow-hidden">
+
+            <img src="./Images/movies/spider-man-brand-5433x2160-26134.jpg" class="card-img"
+                style="height:600px; object-fit:cover;" alt="Upcoming Movie">
+
+            <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: rgba(0,0,0,0.6);">
+
+                <h1 class="display-3 fw-bold">SPIDER-MAN: BRAND NEW DAY</h1>
+
+                <p class="fs-5 col-lg-6">
+                    Peter Parker devotes his life to protecting New York City as a full-time Spider-Man.
+                </p>
+
+                <button class="btn btn-danger btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#trailerModal">
+                    Watch Trailer
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Trailer Modal -->
+    <div  class="modal fade" id="trailerModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-dark">
+
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title text-white">
+                        SPIDER-MAN: BRAND NEW DAY
+                    </h5>
+
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body p-0">
+
+                    <div class="position-relative">
+                        <video class="w-100 rounded" autoplay muted loop>
+                            <source src="./Images/trailer/vidssave.com SPIDER-MAN BRAND NEW DAY – Official Trailer (HD) 720P.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="moreMovies"
+        aria-labelledby="moreMoviesLabel">
+
+        <div class="offcanvas-header border-bottom border-secondary">
+            <h5 class="offcanvas-title text-danger fw-bold" id="moreMoviesLabel">
+                Marvel Movies
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">
+            </button>
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item bg-dark text-light border-secondary">Iron Man (2008)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">The Incredible Hulk (2008)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Iron Man 2 (2010)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Thor (2011)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Captain America: The First Avenger
+                    (2011)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">The Avengers (2012)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Iron Man 3 (2013)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Thor: The Dark World (2013)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Captain America: The Winter Soldier
+                    (2014)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Guardians of the Galaxy (2014)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Avengers: Age of Ultron (2015)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Captain America: Civil War (2016)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Doctor Strange (2016)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Thor: Ragnarok (2017)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Black Panther (2018)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Avengers: Infinity War (2018)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Avengers: Endgame (2019)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Spider-Man: No Way Home (2021)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Doctor Strange in the Multiverse of
+                    Madness (2022)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Deadpool & Wolverine (2024)</li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!-- trailers -->
+    <div class="flex">
+
+    </div>
+    <!-- characters -->
+    <div id="char" class="container my-5">
+
+        <div class="text-center my-5">
+            <h1 class="display-3 fw-bold text-white text-uppercase">
+                Orginal 6
+            </h1>
+            <hr class="w-25 mx-auto border-danger border-3 opacity-100">
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Ironman.png" class="card-img-top p-3"
+                        style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">IRON MAN</h4>
+                        <p class="card-text">Genius, billionaire, philanthropist and founding Avenger.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Cap.png" class="card-img-top p-3" style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">CAPTAIN AMERICA</h4>
+                        <p class="card-text">The first Avenger and symbol of courage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Thor.png" class="card-img-top p-3"
+                        style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">THOR</h4>
+                        <p class="card-text">God of Thunder and protector of Asgard.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Hulk.png" class="card-img-top p-3"
+                        style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">HULK</h4>
+                        <p class="card-text">The strongest Avenger with limitless power.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Black.png" class="card-img-top p-3"
+                        style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">BLACK WIDOW</h4>
+                        <p class="card-text">Master spy and elite S.H.I.E.L.D. agent.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white character-card h-100">
+                    <img src="./Images/char/Hawk.png" class="card-img-top p-3"
+                        style="height:320px; object-fit:contain;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-danger">HAWKEYE</h4>
+                        <p class="card-text">Master archer with unmatched precision.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- SERIES -->
+    <div id="series" class="text-center my-5">
+        <h1 class="display-3 fw-bold text-white text-uppercase">
+            Popular Series
+        </h1>
+        <hr class="w-25 mx-auto border-danger border-3 opacity-100">
+    </div>
+
+    <div id="series" class="my-5 d-flex flex-wrap justify-content-center gap-4">
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/‘Loki’_ Inside the Decision to Have Him ‘Fall In Love With Another Version of Himself’.jpg"
+                class="card-img-top" alt="Loki">
+            <div class="card-body">
+                <h5 class="card-title">LOKI</h5>
+                <p class="card-text">
+                    Follow the God of Mischief as he navigates timelines and alternate realities.
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/MOONKNIGHT.jpg" class="card-img-top" alt="Moon Knight">
+            <div class="card-body">
+                <h5 class="card-title">MOON KNIGHT</h5>
+                <p class="card-text">
+                    A vigilante with multiple identities becomes the avatar of an Egyptian god.
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/WandaVision_ Limited Series.jpg" class="card-img-top" alt="WandaVision">
+            <div class="card-body">
+                <h5 class="card-title">WANDA VISION</h5>
+                <p class="card-text">
+                    Wanda and Vision live a seemingly perfect sitcom life hiding strange secrets.
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/SPIDER.jpg" class="card-img-top" alt="Falcon and Winter Soldier">
+            <div class="card-body">
+                <h5 class="card-title">SPIDER NOIR</h5>
+                <p class="card-text">
+                    A dark and mysterious version of Spider-Man from a 1930s noir universe
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/Daredevil • Concept Art___._._._._.jpg" class="card-img-top" alt="Daredevil">
+            <div class="card-body">
+                <h5 class="card-title">DAREDEVIL</h5>
+                <p class="card-text">
+                    Blind lawyer Matt Murdock fights crime in Hell's Kitchen as Daredevil.
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+        <div class="card mx-5" style="width: 22rem;">
+            <img src="./Images/series/WHAT.jpg" class="card-img-top" alt="What If">
+            <div class="card-body">
+                <h5 class="card-title">WHAT IF...?</h5>
+                <p class="card-text">
+                    Explore alternate realities and unexpected twists across the multiverse.
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- More Series Button -->
+    <div class="text-center my-5">
+        <button class="btn btn-outline-danger px-4 py-2 fw-semibold" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#moreSeries" aria-controls="moreSeries">
+            More Marvel Series
+        </button>
+    </div>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="moreSeries"
+        aria-labelledby="moreSeriesLabel">
+
+        <div class="offcanvas-header border-bottom border-secondary">
+            <h5 class="offcanvas-title text-danger fw-bold" id="moreSeriesLabel">
+                Marvel Series
+            </h5>
+
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas">
+            </button>
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item bg-dark text-light border-secondary">WandaVision (2021)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">The Falcon and the Winter Soldier (2021)
+                </li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Loki (2021)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">What If...? (2021)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Hawkeye (2021)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Moon Knight (2022)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Ms. Marvel (2022)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">She-Hulk: Attorney at Law (2022)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Secret Invasion (2023)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Loki Season 2 (2023)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Echo (2024)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Agatha All Along (2024)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Daredevil: Born Again (2025)</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Ironheart</li>
+
+                <li class="list-group-item bg-dark text-light border-secondary">Spider-Noir</li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-dark text-light mt-5 border-top border-danger">
+
+        <div class="container py-5">
+
+            <div class="row">
+
+                <!-- Brand -->
+                <div class="col-lg-4 mb-4">
+                    <h2 class="fw-bold text-danger">AVENGERS</h2>
+                    <p class="text-secondary">
+                        Explore the Marvel Cinematic Universe, iconic heroes,
+                        legendary battles, and unforgettable moments.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="text-white">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+                        <li><a href="#movies" class="text-secondary text-decoration-none">Movies</a></li>
+                        <li><a href="#trailers" class="text-secondary text-decoration-none">Trailers</a></li>
+                        <li><a href="#characters" class="text-secondary text-decoration-none">Characters</a></li>
+                    </ul>
+                </div>
+
+                <!-- Popular Movies -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-white">Popular Movies</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-secondary">Avengers: Endgame</li>
+                        <li class="text-secondary">Infinity War</li>
+                        <li class="text-secondary">Civil War</li>
+                        <li class="text-secondary">Thor: Ragnarok</li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div class="col-lg-3">
+                    <h5 class="text-white">Follow Us</h5>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="btn btn-outline-danger rounded-circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="btn btn-outline-danger rounded-circle">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="btn btn-outline-danger rounded-circle">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="btn btn-outline-danger rounded-circle">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="text-center text-secondary">
+                © 2026 Avengers Fan Website | Built with Bootstrap
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
